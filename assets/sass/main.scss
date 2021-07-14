@@ -739,35 +739,6 @@ $pattern-background-size: 25em;
 			padding: 0;
 		}
 
-		&.style2 {
-			background-color: _palette(one, bg);
-			background-image: url('images/light-bl.svg'), url('images/light-br.svg');
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: $pattern-background-size, $pattern-background-size;
-			color: _palette(one, fg);
-
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
-			.button {
-				&:hover {
-					background: rgba(255,255,255,0.15) !important;
-				}
-
-				&.primary {
-					background: _palette(one, fg);
-					border-color: _palette(one, fg);
-					color: _palette(one, bg) !important;
-
-					&:hover {
-						border-color: inherit !important;
-						color: _palette(one, fg) !important;
-					}
-				}
-			}
-		}
 
 		&.style3 {
 			background: _palette(two, bg);
@@ -971,10 +942,10 @@ $pattern-background-size: 25em;
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: _palette(three, bg);
-		background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/banner.jpg');
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+		background-image: url('images/overlay.png'), url('../../images/banner.jpg');
+		background-position: top left, top center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: _palette(banner, fg);
 		cursor: default;
 		padding: 6em 0;
@@ -1031,9 +1002,6 @@ $pattern-background-size: 25em;
 /* Main */
 
 	#main {
-		background-image: url('images/dark-tl.svg'), url('images/dark-tr.svg'), url('images/dark-bl.svg'), url('images/dark-br.svg');
-		background-position: top left, top right, bottom left, bottom right;
-		background-repeat: no-repeat;
 		background-size: $pattern-background-size;
 		padding: 7em 0;
 
@@ -1065,10 +1033,10 @@ $pattern-background-size: 25em;
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: _palette(three, bg);
-		background-image: url('images/light-tl.svg'), url('images/light-tr.svg'), url('images/overlay.png'), url('../../images/banner.jpg');
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
+		background-image: url('images/overlay.png'), url('../../images/banner.jpg');
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: _palette(three, fg);
 		padding: 5em;
 		text-align: center;
