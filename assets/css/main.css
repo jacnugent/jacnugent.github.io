@@ -72,6 +72,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+figure {
+  float: center;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
 /* Basic */
 
 	html {
