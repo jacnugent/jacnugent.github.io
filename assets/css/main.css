@@ -2496,10 +2496,10 @@ input, select, textarea {
 		background-image: url("../../images/favorite_spot_before_dawn.JPG");
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto auto;
 		color: #fff;
 		cursor: default;
-		padding: 3em;
+		padding: 0;
 		text-align: center;
 	}
 
