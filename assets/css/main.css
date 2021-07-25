@@ -2603,7 +2603,7 @@ input, select, textarea {
 	#banner7 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/overlay.png"), url("../../images/banners/Ballard_sunset.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banners/Ballard_sunset_with_block.jpg");
 		background-position: top left, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
