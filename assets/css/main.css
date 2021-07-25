@@ -2493,13 +2493,13 @@ input, select, textarea {
 	#banner2 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("../../images/favorite_spot_before_dawn.JPG");
+		background-image: url("../../images/banner_atg.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
 		cursor: default;
-		padding: 0;
+		padding: 6em 0;
 		text-align: center;
 	}
 
