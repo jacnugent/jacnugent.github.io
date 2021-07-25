@@ -2448,7 +2448,7 @@ input, select, textarea {
 			}
 
 
-/* BANNER2 */
+/* Banner2 */
 
 	@-moz-keyframes reveal-banner {
 		0% {
@@ -2493,17 +2493,17 @@ input, select, textarea {
 	#banner2 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("../../images/banner_atg.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-image: url("images/overlay.png"), url("../../images/other_summit_lake.JPG");
+		background-position: top left, top center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
 	}
 
-		#banner2 .inner2 {
+		#banner2 .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
 			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2512,6 +2512,7 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
+			background: rgba(52, 27, 43, 0.5);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2519,7 +2520,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			#banner2 .inner2 header {
+			#banner2 .inner header {
 				display: inline-block;
 				border-bottom: solid 2px;
 				border-top: solid 2px;
@@ -2527,7 +2528,7 @@ input, select, textarea {
 				padding: 3px 0 3px 0;
 			}
 
-				#banner2 .inner2 header h2 {
+				#banner2 .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
 					font-size: 2.5em;
@@ -2539,21 +2540,22 @@ input, select, textarea {
 					text-transform: uppercase;
 				}
 
-			#banner2 .inner2 p {
+			#banner2 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
 			}
 
-				#banner2 .inner2 p a {
+				#banner2 .inner p a {
 					color: inherit;
 					font-weight: 400;
 					text-decoration: none;
 				}
 
-			#banner2 .inner2 footer {
-				margin: 0 0 0 0;
+			#banner2 .inner footer {
+				margin: 2em 0 0 0;
 			}
+
 
 /* Banner */
 
