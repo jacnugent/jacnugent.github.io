@@ -3261,7 +3261,7 @@ figure {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/overlay.png"), url("../../images/banner_atg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/Libby_lake_banner");
 		background-position: top left, top center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
