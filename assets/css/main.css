@@ -2462,7 +2462,7 @@ figure {
 
 	@-moz-keyframes reveal-banner {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -2472,7 +2472,7 @@ figure {
 
 	@-webkit-keyframes reveal-banner {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -2482,7 +2482,7 @@ figure {
 
 	@-ms-keyframes reveal-banner {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -2492,7 +2492,7 @@ figure {
 
 	@keyframes reveal-banner {
 		0% {
-			opacity: 0;
+			opacity: 1;
 		}
 
 		100% {
@@ -2514,10 +2514,10 @@ figure {
 	}
 
 		#banner8 .inner {
-			-moz-animation: reveal-banner 0s 0s ease-in-out;
-			-webkit-animation: reveal-banner 0s 0s ease-in-out;
-			-ms-animation: reveal-banner 0s 0s ease-in-out;
-			animation: reveal-banner 0s 0s ease-in-out;
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
@@ -4078,5 +4078,6 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
