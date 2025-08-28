@@ -4055,11 +4055,27 @@ figure {
 
 	}
 
+/* Custom overrides */
+header.special.container p {
+  text-align: left;
+}
+
 em, i {
   font-style: italic;
 }
 
 strong, b {
   font-weight: bold;
+}
+
+a {
+  color: #6e7273; /* slightly darker gray than your body text (#7c8081) */
+  text-decoration: none; 
+  border-bottom: 1px dotted #9aa0a1; /* thin dotted underline */
+}
+
+a:hover {
+  color: #525657; /* just a shade darker on hover */
+  border-bottom-color: #6e7273; /* underline darkens slightly */
 }
 
