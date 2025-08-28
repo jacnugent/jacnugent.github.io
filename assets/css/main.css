@@ -137,7 +137,15 @@ figure {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: inherit;
+		font-weight: 300;
+		line-height: 1.75em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+
+    h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -4078,6 +4086,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
