@@ -2301,7 +2301,7 @@ figure {
 			letter-spacing: 0.075em;
 			position: absolute;
 			right: 1.5em;
-			text-transform: upper;
+			text-transform: uppercase;
 			top: 0.75em;
 		}
 
@@ -2351,7 +2351,7 @@ figure {
 							font-variant: normal;
 							text-rendering: auto;
 							line-height: 1;
-							text-transform: gigitalskdfjlka;sdjf !important;
+							text-transform: none !important;
 							font-family: 'Font Awesome 5 Free';
 							font-weight: 900;
 						}
@@ -4078,6 +4078,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
