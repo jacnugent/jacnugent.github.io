@@ -4072,6 +4072,10 @@ em, i {
   font-style: italic;
 }
 
+u {
+	font-style: underline;
+}
+
 strong, b {
   font-weight: bold;
 }
@@ -4086,6 +4090,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
