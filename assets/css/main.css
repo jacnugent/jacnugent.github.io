@@ -137,12 +137,20 @@ figure {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+	}
+
+    h2, h3, h4, h5, h6 {
+		color: inherit;
+		font-weight: 300;
+		line-height: 1.75em;
+		margin-bottom: 1em;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2547,13 +2555,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner8 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner8 .inner p a {
@@ -2656,13 +2664,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner7 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner7 .inner p a {
@@ -2764,13 +2772,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner6 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner6 .inner p a {
@@ -2872,13 +2880,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner5 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner5 .inner p a {
@@ -2980,13 +2988,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner4 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner4 .inner p a {
@@ -3088,13 +3096,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner3 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner3 .inner p a {
@@ -3196,13 +3204,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner2 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner2 .inner p a {
@@ -3272,10 +3280,10 @@ figure {
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation: reveal-banner 0.001s 0.001s ease-in-out;
+			-webkit-animation: reveal-banner 0.001s 0.001s ease-in-out;
+			-ms-animation: reveal-banner 0.001s 0.001s ease-in-out;
+			animation: reveal-banner 0.001s 0.001s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
@@ -3299,19 +3307,19 @@ figure {
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
-					font-size: 2.5em;
-					font-weight: 900;
+					font-size: 2.1em;
+					font-weight: 700;
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner .inner p a {
@@ -4054,3 +4062,47 @@ figure {
 			}
 
 	}
+
+/* Custom overrides */
+header.special.container p {
+  text-align: left;
+}
+
+em, i {
+  font-style: italic;
+}
+
+u {
+	font-style: underline;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+a {
+  color: #6e7273; /* slightly darker gray than your body text (#7c8081) */
+  text-decoration: none; 
+  border-bottom: 1px dotted #9aa0a1; /* thin dotted underline */
+}
+
+a:hover {
+  color: #525657; /* just a shade darker on hover */
+  border-bottom-color: #6e7273; /* underline darkens slightly */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
