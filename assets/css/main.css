@@ -3272,10 +3272,10 @@ figure {
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation: reveal-banner 0.001s 0.001s ease-in-out;
+			-webkit-animation: reveal-banner 0.001s 0.001s ease-in-out;
+			-ms-animation: reveal-banner 0.001s 0.001s ease-in-out;
+			animation: reveal-banner 0.001s 0.001s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
@@ -3283,7 +3283,7 @@ figure {
 			background: rgba(52, 27, 43, 0.5);
 			color: #fff;
 			display: inline-block;
-			opacity: 1;
+			opacity: 0;
 			padding: 3em;
 			text-align: center;
 		}
@@ -4078,6 +4078,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
