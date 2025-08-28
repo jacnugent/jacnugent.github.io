@@ -2301,7 +2301,7 @@ figure {
 			letter-spacing: 0.075em;
 			position: absolute;
 			right: 1.5em;
-			text-transform: uppercase;
+			text-transform: normal;
 			top: 0.75em;
 		}
 
@@ -2547,13 +2547,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner8 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner8 .inner p a {
@@ -2656,13 +2656,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner7 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner7 .inner p a {
@@ -2764,13 +2764,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner6 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner6 .inner p a {
@@ -2872,13 +2872,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner5 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner5 .inner p a {
@@ -2980,13 +2980,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner4 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner4 .inner p a {
@@ -3088,13 +3088,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner3 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner3 .inner p a {
@@ -3196,13 +3196,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner2 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner2 .inner p a {
@@ -3305,13 +3305,13 @@ figure {
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					text-transform: normal;
 				}
 
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
+				text-transform: normal;
 			}
 
 				#banner .inner p a {
@@ -3780,7 +3780,7 @@ figure {
 				color: #fff;
 				font-size: 0.8em;
 				letter-spacing: 0.075em;
-				text-transform: uppercase;
+				text-transform: normal;
 				padding: 0.25em 0.75em 1em 0.75em;
 			}
 
@@ -4078,6 +4078,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
