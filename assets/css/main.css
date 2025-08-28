@@ -3280,10 +3280,10 @@ figure {
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 0.001s 0.001s ease-in-out;
-			-webkit-animation: reveal-banner 0.001s 0.001s ease-in-out;
-			-ms-animation: reveal-banner 0.001s 0.001s ease-in-out;
-			animation: reveal-banner 0.001s 0.001s ease-in-out;
+			-moz-animation: reveal-banner 0.0001s 0.0001s ease-in-out;
+			-webkit-animation: reveal-banner 0.0001s 0.0001s ease-in-out;
+			-ms-animation: reveal-banner 0.0001s 0.0001s ease-in-out;
+			animation: reveal-banner 0.0001s 0.0001s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
@@ -4090,6 +4090,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
