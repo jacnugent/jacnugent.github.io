@@ -3299,7 +3299,7 @@ figure {
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
-					font-size: 1.5em;
+					font-size: 1em;
 					font-weight: 700;
 					letter-spacing: 0.2em;
 					margin: 0;
@@ -4078,6 +4078,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
