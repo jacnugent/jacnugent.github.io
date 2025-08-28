@@ -4079,3 +4079,10 @@ a:hover {
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
 
+#banner .inner {
+  animation: none !important;
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -ms-animation: none !important;
+  opacity: 1 !important;
+}
