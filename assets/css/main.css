@@ -142,7 +142,7 @@ figure {
 		font-weight: 300;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -4078,6 +4078,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
