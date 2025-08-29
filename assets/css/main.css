@@ -2465,7 +2465,7 @@ figure {
 			}
 
 
-/* Banner0 */
+/* Banner9 */
 
 	@-moz-keyframes reveal-banner {
 		0% {
@@ -2510,7 +2510,7 @@ figure {
 	#banner9 {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/overlay.png"), url("../../images/banners/aspens.JPEG");
+		background-image: url("images/overlay.png"), url("../../images/banners/aspen.JPEG");
 		background-position: top left, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -4199,6 +4199,7 @@ a:hover {
   color: #525657; /* just a shade darker on hover */
   border-bottom-color: #6e7273; /* underline darkens slightly */
 }
+
 
 
 
