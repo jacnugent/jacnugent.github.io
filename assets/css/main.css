@@ -4202,6 +4202,61 @@ a:hover {
 
 
 
+/* Masonry gallery from https://codepen.io/stevecharles900/pen/raNzXVE */
+
+* {
+  box-sizing: border-box;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    max-width:1400px;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.collage img {
+    max-width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.collage img:nth-of-type(6n+1) {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.collage img:nth-of-type(6n+5) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .collage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .collage img:nth-of-type(6n+4) {
+        grid-row:span 2;
+        grid-column:span 2;
+    }
+    .collage img:nth-of-type(6n+5) {
+        grid-row:span 1;
+        grid-column:span 1;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .collage{ 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .collage img {
+        grid-row:span 1 !important;
+        grid-column: span 1 !important;
+    }
+}
 
 
 
